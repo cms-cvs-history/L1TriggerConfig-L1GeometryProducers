@@ -1,0 +1,5 @@
+  es_source l1CaloGeomRecordSource = EmptyESSource {
+    string recordName = "L1CaloGeometryRecord"
+    vuint32 firstValid = { 1 }
+    bool iovIsRunNotTime = false
+  }
